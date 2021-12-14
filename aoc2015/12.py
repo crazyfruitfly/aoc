@@ -10,6 +10,7 @@ def get_numbers(item, numbers):
         for key, value in item.items():
             if value == "red":
                 return
+        #
         for key, value in item.items():
             get_numbers(value, numbers)
     elif isinstance (item, list):
