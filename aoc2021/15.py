@@ -60,6 +60,6 @@ def f_2(m):
     f_1(nm)
 
 
-om = readup('test15.in')
-f_1(om)
+om = readup('15.in')
+#f_1(om)
 f_2(om)
